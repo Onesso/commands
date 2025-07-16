@@ -1,5 +1,6 @@
 # usefull commands 
 
-powershell delete a dir:
-'''powershell
+## powershell delete a dir:
+'''bash
 Remove-Item -Path "C:\MyOldProject" -Recurse -Force
+'''
