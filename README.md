@@ -25,6 +25,10 @@ Errors:
 ```bash
 ng g c <name-of-component> --project=<project-name>
 ```
+### git command to only add the modified file
+```ash
+git add -u
+```
 
 
 
