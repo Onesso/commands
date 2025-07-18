@@ -16,7 +16,8 @@ git remote -v
 ```bash
 git remote remove orgin
 ```
-### having essues creating a service or component in angular cli example
+### having essues creating a service or component in angular cli 
+example
 Schematic input does not validate against the Schema: {"style":"scss","type":"component","name":"qq"}
 Errors:
 
