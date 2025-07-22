@@ -29,6 +29,10 @@ ng g c <name-of-component> --project=<project-name>
 ```ash
 git add -u
 ```
+### installing dependencies for legacy angular application
+```ash
+npm install -legacy-peer-dep 
+```
 
 
 
