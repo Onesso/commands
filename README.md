@@ -26,12 +26,16 @@ Errors:
 ng g c <name-of-component> --project=<project-name>
 ```
 ### git command to only add the modified file
-```ash
+```bash
 git add -u
 ```
 ### installing dependencies for legacy angular application
-```ash
+```bash
 npm install -legacy-peer-dep 
+```
+### copying the file in the path(from windows) to the current dir in the wsl
+```bash
+sudo cp /mnt/c/Users/karao/Desktop/pem/giktekgreenlife.pem .
 ```
 
 
