@@ -38,5 +38,10 @@ npm install -legacy-peer-dep
 sudo cp /mnt/c/Users/karao/Desktop/pem/giktekgreenlife.pem .
 ```
 
+### in a scenarion where the remote repo is a head of your local repo and you want them to be together
+```bash
+git pull
+```
+
 
 
