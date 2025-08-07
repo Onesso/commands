@@ -48,7 +48,7 @@ git pull
 sudo systemctl enable docker
 ```
 
-### starting docker engine in ubuntu in the terminal
+### starting docker engine in ubuntu in the terminal (cmd)
 ```bash
 sudo systemctl status docker
 ```
