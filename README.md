@@ -52,3 +52,13 @@ sudo systemctl enable docker
 ```bash
 sudo systemctl status docker
 ```
+
+### how to install a new node version
+```bash
+nvm install <the node version>
+```
+
+### how to change the node version
+```bash
+nvm use <the node version>
+```
