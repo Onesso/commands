@@ -43,5 +43,12 @@ sudo cp /mnt/c/Users/karao/Desktop/pem/giktekgreenlife.pem .
 git pull
 ```
 
+### enable docker engine in ubuntu in the terminal
+```bash
+sudo systemctl enable docker
+```
 
-
+### starting docker engine in ubuntu in the terminal
+```bash
+sudo systemctl status docker
+```
