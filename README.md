@@ -58,7 +58,17 @@ sudo systemctl status docker
 nvm install <the node version>
 ```
 
-### how to change the node version
+### how to install a new node version
 ```bash
-nvm use <the node version>
+nvm install <the node version>
+```
+### how to stop a docker command that is running.(first the containers running to get there id's)
+```bash
+docker ps
+```
+
+
+### how to stop a docker command that is running.(seconnd run the following command with theur id to stop it)
+```bash
+docker stop <container_id_or_name>
 ```
