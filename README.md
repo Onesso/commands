@@ -1,4 +1,4 @@
-# usefull commands 
+# Usefull commands 
 
 ## powershell delete a dir:
 ```bash
@@ -62,13 +62,29 @@ nvm install <the node version>
 ```bash
 nvm install <the node version>
 ```
+
 ### how to stop a docker command that is running.(first the containers running to get there id's)
 ```bash
 docker ps
 ```
 
-
 ### how to stop a docker command that is running.(seconnd run the following command with theur id to stop it)
 ```bash
 docker stop <container_id_or_name>
+```
+## How to push a docker image to docker hub
+
+### step1: how to tag the image with your dockerhub username
+```bash
+docker tag capbackend:latest <YOUR_DOCKER_USERNAME>/capbackend:latest
+```
+
+### step2: Log in to Docker Hub
+```bash
+docker login
+```
+
+### step3: Push the Image
+```bash
+docker push <YOUR_DOCKER_USERNAME>/capbackend:latest
 ```
