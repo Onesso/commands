@@ -88,3 +88,8 @@ docker login
 ```bash
 docker push <YOUR_DOCKER_USERNAME>/capbackend:latest
 ```
+
+### ghana: 
+```bash
+"start": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng serve",
+```
