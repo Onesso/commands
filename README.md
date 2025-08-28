@@ -112,4 +112,8 @@ pull the new image
 run the container
   docker run -d --name my-frontend -p 8080:80 <your_image_name>:<tag>
 
+  for example
+
+docker run -d --name stanbic-portal -p 8080:80 frankwere/stanbic-portal:latest
+
 ```
