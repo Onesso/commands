@@ -110,5 +110,6 @@ pull the new image
   docker pull "<repository>:<tag>"
 
 run the container
-  docker run -d --name cob-portal-dev -p 8088:8088 cecillwala/cob-portal:dev
+  docker run -d --name my-frontend -p 8080:80 <your_image_name>:<tag>
+
 ```
