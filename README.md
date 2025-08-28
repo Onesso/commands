@@ -99,7 +99,7 @@ docker push <YOUR_DOCKER_USERNAME>/capbackend:latest
 stop the container
   docker ps "lists all the runing container"
 
-  docker stop <container ID>
+  docker stop <the container name>
 
 remove the image
   docker images "this is to list all the images"
