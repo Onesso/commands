@@ -93,3 +93,22 @@ docker push <YOUR_DOCKER_USERNAME>/capbackend:latest
 ```bash
 "start": "node --max_old_space_size=8192 ./node_modules/@angular/cli/bin/ng serve",
 ```
+
+### redeploying the image
+```bash
+stop the container
+  docker ps "lists all the runing container"
+
+  docker stop <container ID>
+
+remove the image
+  docker images "this is to list all the images"
+
+  docker rmi "<image ID>"
+
+pull the new image
+  docker pull "<repository>:<tag>"
+
+run the container
+  docker run -d --name cob-portal-dev -p 8088:8088 cecillwala/cob-portal:dev
+```
