@@ -63,6 +63,11 @@ nvm install <the node version>
 nvm install <the node version>
 ```
 
+### how to build a docker image
+```bash
+docker build -t your-image-name:tag .
+```
+
 ### how to stop a docker command that is running.(first the containers running to get there id's)
 ```bash
 docker ps
