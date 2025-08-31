@@ -123,3 +123,14 @@ docker run -d --name stanbic-portal -p 8080:80 frankwere/stanbic-portal:latest
 
 ```
 ### NOTE: docker ps -a will list all the container running and the once that has stopped.
+
+### How to share data from one component to the other in angular
+```bash
+📌 Rule of Thumb
+
+Use @Input / @Output for parent-child.
+
+Use service with Subject/BehaviorSubject for siblings.
+
+Use Router params or NgRx for cross-app state.
+```
