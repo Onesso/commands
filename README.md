@@ -82,6 +82,10 @@ docker stop <container_id_or_name>
 ### step1: how to tag the image with your dockerhub username
 ```bash
 docker tag capbackend:latest <YOUR_DOCKER_USERNAME>/capbackend:latest
+
+  example
+
+sudo docker tag frankwere/stanbic-portal:1.2.0 frankwere/stanbic-portal:1.2.0
 ```
 
 ### step2: Log in to Docker Hub
