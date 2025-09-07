@@ -85,7 +85,7 @@ docker tag capbackend:latest <YOUR_DOCKER_USERNAME>/capbackend:latest
 
   example
 
-sudo docker tag frankwere/stanbic-portal:1.2.0 frankwere/stanbic-portal:1.2.0
+sudo docker tag frankwere/stanbic-portal:1.1.0 frankwere/stanbic-portal:1.2.0
 ```
 
 ### step2: Log in to Docker Hub
@@ -144,4 +144,9 @@ Use Router params or NgRx for cross-app state.
 #### How to install in locally
 ```bash
 npm install @angular/cli@18
+```
+### how to build a docker image
+
+```bash
+docker build -t my-nodejs-app:1.0 .
 ```
