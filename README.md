@@ -5,6 +5,11 @@
 Remove-Item -Path "C:\MyOldProject" -Recurse -Force
 ```
 
+## using ara2 cmd tool to download content on the internet.
+```bash
+aria2c -x 16 -s 16 "https://oslo2.nebula.to/c9ace27c58cf8efcd84c4a5c40d5f9fa6ec1cfeb.mp4?md5=bRsTS31MYuBqjJLHV8XsCg&expires=1757781247&fn=c9ace27c58cf8efcd84c4a5c40d5f9fa6ec1cfeb.mp4"
+```
+
 ## to remove remote github from you local project.
 
 ### first command to check list
