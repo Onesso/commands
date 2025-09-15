@@ -155,3 +155,14 @@ npm install @angular/cli@18
 ```bash
 docker build -t my-nodejs-app:1.0 .
 ```
+
+### restarting phone as an emulator for debuging.
+```bash
+sudo chmod a+r /etc/udev/rules.d/51-android.rules
+sudo systemctl restart udev
+```
+#### after running the above command run the following
+```bash
+adb kill-server
+adb start-server
+```
