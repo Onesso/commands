@@ -156,6 +156,11 @@ npm install @angular/cli@18
 docker build -t my-nodejs-app:1.0 .
 ```
 
+### Create a new rule file
+```bash
+sudo nano /etc/udev/rules.d/51-android.rules
+```
+
 ### restarting phone as an emulator for debuging.
 ```bash
 sudo chmod a+r /etc/udev/rules.d/51-android.rules
