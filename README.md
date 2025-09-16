@@ -144,7 +144,7 @@ Use service with Subject/BehaviorSubject for siblings.
 Use Router params or NgRx for cross-app state.
 ```
 
-##Angular 18
+## Angular 18
 
 #### How to install in locally
 ```bash
